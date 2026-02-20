@@ -59,7 +59,7 @@ screen.run_standard_analysis(
 )
 
 # Access results
-gi_matrix = screen.gi_matrix
+reporter_gi_matrix = screen.reporter_GI
 reporter_phenotypes = screen.reporter_guide_matrix
 identity_phenotypes = screen.identity_guide_matrix
 ```
