@@ -4,7 +4,7 @@ Tang, A., Ardy, R.C., Mendes, R.E., & Norman, T.M. Scaling perturbations: beyond
 
 Analysis code for PORTAL screens with clonal barcoding and dual transcriptional reporters.
 
-All data will be made publicly available upon publication at [GEO: to be deposited] and [Zenodo: to be deposited].
+All data will be made publicly available upon publication at [SRA: to be deposited] and [Zenodo: to be deposited].
 
 ## Overview
 
@@ -201,7 +201,7 @@ Notebooks for processing raw FASTQ files to UMI count matrices:
 ## Reproducing Manuscript Results
 
 ### Data Availability
-- Raw sequencing data: [GEO: to be deposited]
+- Raw sequencing data: [SRA: to be deposited]
 - Processed UMI count matrices: [Zenodo: to be deposited]
 
 ### Reproduce Figures
