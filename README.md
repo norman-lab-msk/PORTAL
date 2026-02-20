@@ -8,10 +8,10 @@ All data will be made publicly available upon publication at [SRA: to be deposit
 
 ## Overview
 
-This is not a general-purpose software package, but specific analysis code developed for our manuscript. The scripts process dual-guide CRISPR screen data with:
+This is not a general-purpose software package, but specific analysis code developed for our manuscript. The scripts process PORTAL screen data with:
 - Clonal barcoding to track lineages
 - Dual transcriptional reporters (identity + reporter)
-- Pairwise genetic interaction analysis
+- Pairwise genetic interaction analysis in dual-guide screens
 - Hierarchical clustering and complex/cluster recall
 
 ## System Requirements
