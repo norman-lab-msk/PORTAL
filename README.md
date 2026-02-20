@@ -89,8 +89,8 @@ gene_sets = {
 
 # Neighborhood enrichment with permutation testing
 results = recall_and_process_multiple_gene_sets_jointly(
-    data_matrix=screen.gi_matrix,
-    hierarchical_order=screen.hierarchical_order,
+    data_matrix=screen.reporter_GI,
+    hierarchical_order=screen.reporter_order,
     gene_sets_dict=gene_sets,
     n_permutations=1000,
     p_value_threshold=0.05,
