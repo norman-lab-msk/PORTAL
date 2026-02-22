@@ -20,13 +20,26 @@ This is not a general-purpose software package, but specific analysis code devel
 - **Operating System**: Red Hat Enterprise Linux 8.7 (tested)
 - **RAM**: 16-32 GB for standard analysis, 64-128 GB for large-scale screens
 
-### Installation
+### Python Dependencies
 
 ```bash
 git clone https://github.com/norman-lab-msk/PORTAL.git
 cd PORTAL
 pip install -r requirements.txt
 ```
+
+### System Dependencies (for data processing only)
+
+The following system tools are required only if processing raw FASTQ files. They are not needed for running the main analysis scripts.
+
+**Required for FASTQ processing:**
+- **pigz** - Parallel gzip for fast FASTQ decompression
+
+**Required for PacBio analysis (Fig3 only):**
+- **minimap2** - Long-read aligner
+- **samtools** - SAM/BAM file manipulation
+
+**Note:** Python packages with CLI tools (freebarcodes, sniffles) are included in requirements.txt
 
 ## Analysis Scripts
 
