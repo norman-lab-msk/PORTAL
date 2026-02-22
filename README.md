@@ -177,7 +177,7 @@ edges = add_complex_edges_curved(
 
 ### Data Processing
 
-Processing notebooks in the `data_processing/` subdirectory handle FASTQ file processing to produce UMI count matrices. The modules `process_files.py` and `parallel_process_files.py` are imported within these notebooks.
+Processing notebooks in the `data_processing/` subdirectory handle FASTQ file processing to produce UMI count matrices. The modules `process_files.py`, `parallel_process_files.py`, and `isotonic_barcode_calling.py` are imported within these notebooks for sequence extraction and fuzzy alignment of guides/barcodes to reference libraries.
 
 ## Analysis Notebooks
 
